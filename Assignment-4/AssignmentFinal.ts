@@ -1,4 +1,4 @@
-// <<<<<<<<<<<<-------- Problem-1----------->>>>>>>>>>
+//Problem-01: Battery Level Status
 
 function getBatteryStatus(percentage: number): string {
   if (percentage >= 0 && percentage <= 20) {
@@ -12,7 +12,7 @@ function getBatteryStatus(percentage: number): string {
   }
 }
 
-// <<<<<<<<<<<<-------- Problem-2----------->>>>>>>>>>
+//Problem-02: Table Booking Confirmation
 
 interface Booking {
   name: string;
@@ -24,13 +24,13 @@ function formatBookingConfirmation(booking: Booking): string {
   return `${booking.name}'s table for ${booking.guests} guests is confirmed at ${booking.time}.`;
 }
 
-// <<<<<<<<<<<<-------- Problem-3----------->>>>>>>>>>
+//Problem-03: Weekly Expense Tracker
 
 function calculateWeeklyTotal(expenses: number[]): number {
   return expenses.reduce((total, expense) => total + expense, 0);
 }
 
-// <<<<<<<<<<<<-------- Problem-4----------->>>>>>>>>>
+//Problem-04: Traffic Light Action
 
 type Light = "red" | "yellow" | "green";
 
@@ -44,7 +44,7 @@ function getTrafficAction(light: Light): string {
   }
 }
 
-// <<<<<<<<<<<<-------- Problem-5----------->>>>>>>>>>
+//Problem-05: Quiz Score Summary
 
 function getQuizSummary(scores: number[]): { total: number; average: number } {
   const total = scores.reduce((sum, score) => sum + score, 0);
